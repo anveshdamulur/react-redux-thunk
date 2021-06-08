@@ -1,0 +1,47 @@
+.product__container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 250px;
+    height: 350px;
+    border: 1px solid #fbfbfb;
+    z-index: 99;
+    align-items: center;
+    background-color: rgb(255, 254, 247);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.product__image{
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
+.product__image img{
+    width: 100%;
+    height: 160px;
+}
+
+.product__info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+.product__title{
+    width: 100%;
+    height: 80px;
+    padding: 2px;
+}
+
+.product__title font{
+   font-weight: 500;
+   font-size: 14px;
+}
+.product__price p{
+    font-weight: 500;
+    margin-top: 30px;
+}
